@@ -14,7 +14,7 @@ print("Welcome to Los Hermanos de los Neumaticos Tire Shop!! Please fill out all
 
 #Opens and closes the volumes.txt file and reads it in Python as volumes_files
 
-with open("/Users/braydentodd/Library/CloudStorage/OneDrive-BYU-Idaho/volumes.txt", "a+",) as volumes_file:
+with open("volumes.txt", "a+",) as volumes_file:
     
     #User input for their tire
 
